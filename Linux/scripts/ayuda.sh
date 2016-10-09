@@ -1,0 +1,23 @@
+#!/bin/bash
+
+CYAN="\E[1;36m\E[1m"
+NC="\E[m"
+BLUE="\E[34m\E[1m"
+VIOLET="\E[35m\E[1m"
+RED="\E[31m\E[1m"
+YELLOW="\E[33m\E[1m"
+GREEN="\E[37m\E[32m\E[1m"
+TEXT="\E[1;37m\E[1m"
+
+echo -e "\n\t$(tput bold)COMANDO$(tput sgr0)\n"
+echo -e "\tahorcado\tInicia el juego de moda: \"Ahorcado: el videojuego\"\n"
+echo -e "\tarbol\t\tMuestra el contenido del directorio de manera jerárquica\n"
+echo -e "\tbusca\t\tBusca el archivo en el directorio"
+echo -e "\t\t\tSintáxis: busca <archivo> <directorio>\n"
+echo -e "\tfecha\t\tMuestra la fecha actual\n"
+echo -e "\thora\t\tMuestra la hora actual\n"
+echo -e "\tinfosis\t\tMuestra la información del sistema\n"
+echo -e "\tprebeplayer\tInicia el reproductor de moda\n"
+echo -e "\tcreditos\tMuestra a los prebes que hicieron esta PrebeShell\n"
+echo -e "\tayuda\t\tMuestra esta ayuda\n"
+echo -e "\tsalir\t\tPara salir de la PrebeShell\n"
